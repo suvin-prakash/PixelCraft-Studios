@@ -7,21 +7,21 @@ const testimonials = [
   {
     name: "Sarah Kumar",
     role: "CEO, Sarab",
-    rating:"4",
+    rating:4,
     review:
       "PixelCraft exceeded our expectations. Their design transformed our online presence.",
   },
   {
     name: "David john",
     role: "Founder, Tour",
-    rating:"4",
+    rating:4,
     review:
       "Professional team with outstanding creativity and technical expertise.",
   },
   {
     name: "Saniya Khan",
     role: "Co-Founder, Instyle",
-    rating:"4",
+    rating:4,
     review:
       "Their attention to detail and user experience helped increase our sales.",
   },
