@@ -11,7 +11,7 @@ export default function Hero() {
       id="hero"
       className="relative min-h-screen flex items-center bg-gradient-to-br from-[#F8F9FA] via-white to-[#E7EEF2] dark:from-[#1E2C36] dark:via-[#243844] dark:to-[#2F4850]"
     >
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-24 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-12 px-6 py-26 lg:grid-cols-2">
 
         {/* Left Content */}
         <motion.div
@@ -19,7 +19,7 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
         >
-          <span className="rounded-full bg-[#9BAEB8] px-4 py-2 text-sm font-medium text-[#2F4858] dark:bg-[#876E7D] dark:text-[#2F4858]">
+          <span className="rounded-full bg-[#9BAEB8] px-5 py-2 text-sm font-medium text-[#2F4858] dark:bg-[#876E7D] dark:text-[#2F4858]">
             🚀 Creative Design Agency
           </span>
 
