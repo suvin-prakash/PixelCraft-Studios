@@ -58,7 +58,14 @@ export default function Navbar() {
 
           <ThemeToggle />
 
-          <button className="rounded-full bg-[#876E7D] px-5 py-2 text-white hover:bg-[#877E8D]">
+          <button
+            onClick={() => {
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="rounded-full bg-[#876E7D] px-5 py-2 text-white hover:bg-[#877E8D]"
+          >
             Let's Talk
           </button>
         </div>
@@ -80,7 +87,14 @@ export default function Navbar() {
 
           <Link href="#contact">Contact</Link>
 
-          <button className="rounded-lg bg-[#876E7D] py-2 text-white">
+          <button
+            onClick={() => {
+              document
+                .getElementById("contact")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="rounded-lg bg-[#876E7D] py-2 text-white"
+          >
             Let's Talk
           </button>
         </div>

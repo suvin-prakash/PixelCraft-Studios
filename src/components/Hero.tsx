@@ -36,12 +36,24 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-wrap gap-4">
 
-            <button className=" flex gap-2 rounded-full bg-[#876E7D] px-7 py-4 font-semibold text-white transition hover:bg-[#877E8D]"><Link href="#services"> 
-              Get Started <ArrowRight size={18} /></Link>
+            <button 
+            onClick={() => {
+              document
+                .getElementById("services")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }} 
+            className=" flex gap-2 rounded-full bg-[#876E7D] px-7 py-4 font-semibold text-white transition hover:bg-[#877E8D]"> 
+              Get Started <ArrowRight size={18} />
             </button>
 
-            <button className="rounded-full border border-[#677987] px-7 py-4 font-semibold transition hover:bg-[#9BAEB8] dark:border-gray-600 dark:hover:bg-slate-800"><Link href="#portfolio"> 
-              View Portfolio</Link>
+            <button
+            onClick={() => {
+              document
+                .getElementById("portfolio")
+                ?.scrollIntoView({ behavior: "smooth" });
+            }}
+             className="rounded-full border border-[#677987] px-7 py-4 font-semibold transition hover:bg-[#9BAEB8] dark:border-gray-600 dark:hover:bg-slate-800"> 
+              View Portfolio
             </button>
 
           </div>
