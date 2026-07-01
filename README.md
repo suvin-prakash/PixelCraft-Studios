@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PixelCraft Studio - Design Agency Webpage
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+PixelCraft Studio is a modern and responsive design agency. In this project, the home page for the agency built using Next.js. It presents the services, portfolio, testimonials, and contact information of a creative agency. The webpage is designed with a clean user interface, smooth animations, and supports both light and dark themes.
 
-```bash
+# Setup Instructions
+
+## 1. Clone the repository
+
+git clone https://github.com/suvin-prakash/agency-site.git
+
+## 2. Go to the project folder
+
+cd agency-site
+
+## 3. Install all required packages
+
+npm install framer-motion lucide-react next-themes react-hook-form zod @hookform/resolvers clsx
+
+## 4. Start the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 5. Build the project
 
-## Learn More
+npm run build
 
-To learn more about Next.js, take a look at the following resources:
+## 6. Run the production build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm start
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Tech Stack Used
 
-## Deploy on Vercel
+## Framework
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Next.js 16
+- React 19
+- TypeScript
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Styling
+
+- Tailwind CSS 4
+
+## Animation
+
+- Framer Motion
+
+## Icons
+
+- Lucide React
+
+## Form Validation
+
+- React Hook Form
+- Zod
+- @hookform/resolvers
+
+## Theme Support
+
+- next-themes
+
+## Deployment
+
+- GitHub
+- Vercel
+
+# Features
+
+- Responsive navigation bar
+- Hero section with call-to-action buttons
+- Services section
+- Portfolio section with image hover animation
+- Why Choose Us section
+- Client testimonials
+- Contact form with validation
+- Footer
+- Light and Dark mode
+- Smooth scrolling
+- Scroll to top button
+- Responsive layout for mobile, tablet, and desktop
+
+## Assumptions
+
+- The webpage is designed as a single-page application.
+- The contact form currently validates user input but does not send data to a backend server.
+- Portfolio images are stored locally in the project's public folder.
+- The webpage is intended to demonstrate frontend development skills.
+
+## Additional Features
+
+- Dark and Light theme support
+- Smooth page animations using Framer Motion
+- Animated portfolio cards with multiple project images
+- Image optimization using the Next.js Image component
+- Responsive design for different screen sizes
+- Clean and reusable component structure
+- Modern UI with a custom color palette
+
+## Deployment
+
+The project is deployed using "Vercel".
+
+Whenever changes are pushed to the GitHub repository, Vercel automatically builds and deploys the latest version of the project.
+
+## Author
+
+_Suvin Prakash_
+
+GitHub: https://github.com/suvin-prakash
