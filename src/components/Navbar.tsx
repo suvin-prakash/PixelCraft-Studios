@@ -69,7 +69,7 @@ export default function Navbar() {
       </div>
 
       {menuOpen && (
-        <div className="flex flex-col gap-4 bg-white p-6 shadow-lg dark:bg-slate-900 md:hidden">
+        <div className="flex flex-col gap-4 bg-white p-5 shadow-lg dark:bg-[#2F4858] md:hidden">
           <ThemeToggle />
 
           <Link href="#hero">Home</Link>
